@@ -1,0 +1,2 @@
+# CalPal
+Google Calendar automations
