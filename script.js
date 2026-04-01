@@ -93,7 +93,7 @@ function manageLunchBlocks() {
   const today = new Date();
   today.setHours(0,0,0,0);
 
-  for (let i = 12; i < daysToLookAhead; i++) {
+  for (let i = 0; i < daysToLookAhead; i++) {
     let date = new Date(today.getTime());
     date.setDate(today.getDate() + i);
     console.log(`Booking lunch for ${date}`);
